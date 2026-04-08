@@ -4,11 +4,16 @@ The goal of this project is to classify news articles as **REAL** or **FAKE** us
 
 ---
 
-## 📌 Dataset
+## 📂 Dataset
 
-The dataset consists of two files:
-- `True.csv` → real news articles
-- `Fake.csv` → fake news articles
+The dataset is not included in this repository due to size limitations.
+
+You can download it from Kaggle:
+- Fake and Real News Dataset
+
+After downloading, place the files inside the `data/` folder:
+- True.csv
+- Fake.csv
 
 ---
 
@@ -38,13 +43,12 @@ The dataset consists of two files:
 fake-news-detection/
 │
 ├── data/
-│   ├── True.csv
-│   └── Fake.csv
+│ └── (not included in repo)
 │
 ├── notebooks/
-│   ├── 01_data_preparation.ipynb
-│   ├── 02_eda.ipynb
-│   └── 03_model.ipynb
+│ ├── 01_data_preparation.ipynb
+│ ├── 02_eda.ipynb
+│ └── 03_model.ipynb
 │
 ├── README.md
 └── requirements.txt
