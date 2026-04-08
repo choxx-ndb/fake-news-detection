@@ -38,25 +38,19 @@ After downloading, place the files inside the `data/` folder:
 - Jupyter Notebook
 
 ---
+
 ## 🗂️ Project Structure
 
+```bash
 fake-news-detection/
 │
 ├── data/
-│ └── (not included in repo)
+│   └── (not included in repo)
 │
 ├── notebooks/
-│ ├── 01_data_preparation.ipynb
-│ ├── 02_eda.ipynb
-│ └── 03_model.ipynb
+│   ├── 01_data_preparation.ipynb
+│   ├── 02_eda.ipynb
+│   └── 03_model.ipynb
 │
 ├── README.md
 └── requirements.txt
-
-## 🚀 Next Steps
-
-- Try other models (Naive Bayes, Random Forest)
-- Improve preprocessing
-- Try embeddings (advanced NLP)
-
----
